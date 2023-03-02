@@ -16,3 +16,4 @@ curl -X POST -F "master_pwd=${ADMIN_PASSWORD}"  -F "name=${ODOO_DATABASE}"  -F "
 
 # delete old backups
 find ${BACKUP_DIR} -type f -mtime +8 -name "${ODOO_DATABASE}.*.zip" -delete
+###mod###
